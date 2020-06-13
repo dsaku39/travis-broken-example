@@ -1,5 +1,8 @@
 language: php
 
+
+dst：trusty
+
 dist: trusty
 
 php:
@@ -14,5 +17,7 @@ matrix:
   include:
     - php: hhvm
       dist: trusty
+  - hhvm
 
 script: phpunit Test.php
+
